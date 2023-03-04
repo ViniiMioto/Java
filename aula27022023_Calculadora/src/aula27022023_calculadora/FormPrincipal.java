@@ -39,7 +39,6 @@ public class FormPrincipal extends javax.swing.JDialog
         btnSubtrair = new javax.swing.JButton();
         btnMultip = new javax.swing.JButton();
         btnDividir = new javax.swing.JButton();
-        jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setTitle("Calculadora");
@@ -86,8 +85,6 @@ public class FormPrincipal extends javax.swing.JDialog
             }
         });
 
-        jLabel1.setText("jLabel1");
-
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -108,9 +105,7 @@ public class FormPrincipal extends javax.swing.JDialog
                         .addContainerGap(28, Short.MAX_VALUE))
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(lblResultado)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jLabel1)
-                        .addGap(16, 16, 16))))
+                        .addGap(16, 81, Short.MAX_VALUE))))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -132,9 +127,7 @@ public class FormPrincipal extends javax.swing.JDialog
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(btnDividir, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 34, Short.MAX_VALUE)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(lblResultado)
-                    .addComponent(jLabel1))
+                .addComponent(lblResultado)
                 .addGap(24, 24, 24))
         );
 
@@ -255,7 +248,6 @@ public class FormPrincipal extends javax.swing.JDialog
     private javax.swing.JButton btnMultip;
     private javax.swing.JButton btnSomar;
     private javax.swing.JButton btnSubtrair;
-    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel lblPrimeiroNumero;
     private javax.swing.JLabel lblResultado;
     private javax.swing.JLabel lblSegundoNumero;
