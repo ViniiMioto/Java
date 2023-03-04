@@ -1,7 +1,5 @@
 package aula27022023_calculadora;
 
-/*teste*/
-
 public class Aula27022023_Calculadora
 {
 
